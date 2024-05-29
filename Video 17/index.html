@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+
+        /* Element Selector */
+        /* div{
+            background-color: red;
+        } */
+
+        /* Class Selector */
+        .red{
+            background-color: red;
+        }
+
+        /* Id Selector */
+        #green{
+            background-color: rgb(37, 215, 37);
+        }
+
+        /* Child Selector */
+        div > p{
+            color: palevioletred;
+            background-color: rgb(0, 89, 255);
+        }
+
+        /* Descendant Selector */
+        div p{
+            color: palevioletred;
+            background-color: rgb(0, 89, 255);
+        }
+
+        /* Universal Selector */
+        *{
+            margin: 0; ;
+            padding:0;
+        }
+
+        /* Pseodu Selector */
+        a:visited{
+            color:coral;
+        }
+        a:link{
+            color: aqua;
+        }
+        a:active{
+            background-color: mediumvioletred;
+        }
+        a:hover{
+            background-color: fuchsia;
+        }
+        p:first-child{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div class="red">
+        I am div
+        <article>
+            <p>I am para inside div</p>
+        </article>
+    </div>
+    <div id="green">
+        I am another div
+    </div>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.yahoo.com">Yahoo</a>
+</body>
+</html>

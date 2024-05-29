@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: pink;
+            /* height: 80px; */
+            text-align: center;
+            font-size: 35px;
+            position: sticky;
+            top: 0;
+        }
+
+        .boxes {
+            background-color: green;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        .box {
+            height: 455px;
+            width: 44%;
+            display: inline-block;
+            margin: 30px;
+            text-align: center;
+        }
+
+        .box1 {
+            background-color: rgb(255, 182, 243);
+        }
+
+        .box2 {
+            background-color: lightblue;
+        }
+
+        .content {
+            font-size: 90px;
+            text-align: center;
+            border: 2px solid black;
+            margin: 40px;
+            padding: 10px;
+            width: 90%;
+            border-radius: 40px;
+        }
+
+        footer {
+            background-color: gray;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .circular-img {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .circular-img img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>This is a Nav Bar</nav>
+    <div class="boxes">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+    </div>
+    <div class="content">Welcome to this Sigma Web Development Express</div>
+
+    <div class="circular-img">
+        <!-- You can add an image tag or an icon here -->
+        <img src="https://wallpapers.com/images/featured-full/avengers-logo-bc77lnmtpum2omcp.jpg"
+            alt="Circular Image" />
+    </div>
+
+    <footer>This is a Footer Bar</footer>
+</body>
+
+</html>

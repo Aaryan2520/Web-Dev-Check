@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        *{
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .box{
+            border: 2px solid antiquewhite;
+            display: inline-block;
+            padding: 44px;
+            margin: 33px;
+            width: 345px;
+        }
+        
+        .boy{
+            /* display: block; */
+            border: 2px solid;
+        }
+        
+        .box1{
+            display: inline-flex;
+            justify-content: center;
+
+            /* display: none; */
+            /* visibility: hidden; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        I am a box
+    </div>
+    <div class="box">
+        Also good
+    </div>
+
+    <span class="boy">
+        I am a good boy
+    </span>
+</body>
+</html>
